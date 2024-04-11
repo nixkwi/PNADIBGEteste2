@@ -31,7 +31,7 @@ def extrair_variaveis(dicionario):
             codigo = linha[2].value
             descricao = linha[4].value
 
-            # Cosntroi a nova variavel com os valores de cada celula útil (0-1-2-4)
+            # Constroi a nova variavel com os valores de cada celula útil (0-1-2-4)
             nova_variavel = Variavel(posicao_inicial, tamanho, codigo, descricao)
 
             # Variaveis contendo os valores do atributo "categoria" a ser adicionado no objeto "Variavel"
