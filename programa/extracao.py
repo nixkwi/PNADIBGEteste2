@@ -50,5 +50,5 @@ df = pandas.DataFrame(linhas, columns=colunas)
 print(df.shape)
 
 # Transforma esse DataFrame em um arquivo csv na Area de trabalho
-df.to_csv(rf'{desktop_dir}\microdados_traduzidos.csv', sep=';')
+df.to_csv(f'{desktop_dir}/microdados_traduzidos.csv', sep=';')
 
